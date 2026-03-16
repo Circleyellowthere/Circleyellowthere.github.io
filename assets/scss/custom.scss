@@ -1,48 +1,62 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  gap: 16px;
+  margin-top: 20px;
 }
 
-.hero img {
-  max-width: 160px;
-  border-radius: 12px;
+.hero-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 14px;
+  object-fit: cover;
 }
 
 .hero-text {
-  flex: 1;
-  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .hero img {
-    width: 110px;
-  }
-}
-
-/* 正文 */
-body {
-  font-size: 17px;
-  line-height: 1.7;
-}
-
-/* 文章标题 */
-h1 {
+.hero-title {
   font-size: 28px;
+  margin: 0;
 }
 
-/* 副标题 */
-h2 {
-  font-size: 22px;
+.hero-subtitle {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 4px;
 }
 
-/* 元信息 */
-.meta {
+.hero-desc {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+
+.hero-avatar{
+  width:70px;
+  height:70px;
+}
+
+.hero-title{
+  font-size:24px;
+}
+
+.hero-subtitle{
+  font-size:13px;
+}
+
+.hero-desc{
+  font-size:15px;
+}
+
+}
+.post-title {
+  font-size: 20px;
+}
+
+.post-meta {
   font-size: 13px;
 }
