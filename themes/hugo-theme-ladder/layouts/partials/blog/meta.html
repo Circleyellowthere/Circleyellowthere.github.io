@@ -1,0 +1,17 @@
+<p>
+  <small>
+    {{ .Date | time.Format ":date_long" }}&nbsp;· {{ i18n "word_count" (len .Plain) }}
+  </small>
+
+  {{ if .Site.Params.options.showMetaTags -}}
+    <small>
+      {{ with .GetTerms "tags"}}
+      ·
+      {{ end }}
+      {{ range (.GetTerms "tags") }}
+      <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      {{ end }}
+    </small>
+  {{ end }}
+<p>
+  

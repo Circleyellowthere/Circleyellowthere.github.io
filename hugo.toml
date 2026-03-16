@@ -1,0 +1,44 @@
+baseURL = "https://circleyellowthere.github.io/" #网站的URL
+
+languageCode = "zh" #网站语言代码
+title = "Circleyellowthere" #网站标题 
+theme = "hugo-theme-ladder" #使用的主题名称
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  brand = "主页"
+  authorDescription = "什么标签｜都不足以｜定义我自己"
+  info = "用我自己的眼睛去观察去感受这个世界，是只有我自己才能做到的很了不起的事情"
+  avatarURL = "images/IMG_6661.jpg"
+  darkModeTheme = "data-dark-mode"
+disableKinds = ["RSS","taxonomy","term"]
+
+[params.author]
+name = "极品润物"
+email = "Circleyellowthere@163.com"
+
+[[menu.main]]
+  name = "文章"
+  url = "/blog/"
+  weight = 1
+
+[[menu.main]]
+  name = "归档"
+  url = "/archive/"
+  weight = 2
+
+[[menu.main]]
+  name = "联系"
+  url = "/contact/"
+  weight = 3
+
+[[menu.main]]
+  name = "网站统计"
+  url = "/xx/"
+  weight = 4
+
+

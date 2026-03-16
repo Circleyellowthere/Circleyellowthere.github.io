@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.hero img {
+  max-width: 160px;
+  border-radius: 12px;
+}
+
+.hero-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .hero img {
+    width: 110px;
+  }
+}
+
+/* 正文 */
+body {
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* 文章标题 */
+h1 {
+  font-size: 28px;
+}
+
+/* 副标题 */
+h2 {
+  font-size: 22px;
+}
+
+/* 元信息 */
+.meta {
+  font-size: 13px;
+}
