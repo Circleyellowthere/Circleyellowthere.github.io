@@ -95,3 +95,25 @@
     transform: scale(0.5);
   }
 }
+
+.home .info .intro h1 {
+  font-size: 3rem !important;
+  line-height: 3.4rem;
+}
+
+.featured-single h4 a {
+  font-size: 1.3rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .home .info .intro h1 {
+    font-size: 2rem !important;
+    line-height: 2.4rem;
+  }
+
+  .featured-single h4 a {
+    font-size: 1.1rem !important;
+  }
+
+}
