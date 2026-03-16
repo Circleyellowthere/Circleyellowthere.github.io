@@ -37,4 +37,5 @@
         {{ $darkModeInit := resources.Get "js/darkmode-init.js" | js.Build | minify -}}
         <script>{{ $darkModeInit.Content | safeJS }}</script>
     {{ end -}}
+<link rel="stylesheet" href="/css/font.css">
 </head>
