@@ -36,9 +36,6 @@ email = "Circleyellowthere@163.com"
   url = "/contact/"
   weight = 3
 
-[[menu.main]]
-  name = "网站统计"
-  url = "/xx/"
-  weight = 4
+
 
 
