@@ -38,4 +38,7 @@ email = "Circleyellowthere@163.com"
 
 # rebuild
 
+[build]
+  writeStats = true
+
 
