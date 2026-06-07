@@ -47,21 +47,23 @@
     }
 
     .avatar {
-      width: 30%;
+      width: auto;
       display: flex;
       align-items: center;
       justify-content: center;
       img {
-        height: 15rem;
+        width: auto !important;
+        height: 450px !important;
         border-radius: 8px;
+      
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 3000px) {
           margin-top: 2rem;
           height: 10rem;
         }
       }
 
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 3000px) {
         width: 100%;
         margin-top: 2rem;
       }
@@ -116,4 +118,18 @@
     font-size: 1.1rem !important;
   }
 
+}
+
+.featured-single{
+    background: rgba(255,255,255,0.55)!important;
+    backdrop-filter: blur(12px)!important;
+
+    border-radius: 20px!important;
+
+    padding: 2rem!important;
+
+    margin-bottom: 2rem!important;
+
+    box-shadow:
+        0 8px 24px rgba(0,0,0,.08)!important;
 }

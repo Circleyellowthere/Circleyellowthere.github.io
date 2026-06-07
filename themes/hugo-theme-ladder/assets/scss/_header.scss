@@ -162,7 +162,9 @@
 
   .menu-button {
     display: none;
-
+    
+    font-weight:600;
+    color:#be8eb2;
     @media only screen and (max-width: 768px) {
       position: relative;
       display: block;

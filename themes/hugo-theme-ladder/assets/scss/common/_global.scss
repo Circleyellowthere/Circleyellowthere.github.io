@@ -11,13 +11,13 @@ html {
 }
 
 body {
-  color: #3f314a;
+  color: #6E5C57;
   background-color: #f7f5fa;
   font-family: $font-family;
   font-size: 1.8em;
   font-weight: 400;
   line-height: 1.8em;
-  background-image: url('/images/bg.png');
+  background-image: url('/images/IMG_0527.PNG');
   background-size: cover;
   background-attachment: fixed;
   @media only screen and (max-width: 768px) {
@@ -28,13 +28,13 @@ body {
 
 a {
   font-weight: 500;
-  color: #8f415d;
+  color: #B8847E;
   text-decoration: none;
   transition: all 0.25s ease-in;
 
   &:focus,
   &:hover {
-    color: #b04f73; 
+    color: #D1A099; 
     text-decoration: underline;
   }
 }
@@ -51,7 +51,7 @@ h5,
 h6 {
   font-family: $font-family;
   font-weight: 600;
-  color: #5a4e7c;
+  color: #5F4C47;
   margin: 2rem 0 2rem 0;
 
   &:hover .heading-link {
@@ -76,6 +76,7 @@ h6 {
 h1 {
   font-size: 3.2rem;
   line-height: 3.6rem;
+  color: #5F4C47;
 
   @media only screen and (max-width: 768px) {
     font-size: 3rem;
@@ -86,6 +87,7 @@ h1 {
 h2 {
   font-size: 2.8rem;
   line-height: 3.2rem;
+  color: #7A6660;
 
   @media only screen and (max-width: 768px) {
     font-size: 2.6rem;
@@ -96,6 +98,7 @@ h2 {
 h3 {
   font-size: 2.4rem;
   line-height: 2.8rem;
+  color: #947E77;
 
   @media only screen and (max-width: 768px) {
     font-size: 2.2rem;
@@ -104,7 +107,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   line-height: 2.6rem;
 
   @media only screen and (max-width: 768px) {
