@@ -4,10 +4,12 @@
     <h1>{{ .Title }}</h1>
   </header>
 
+ {{ if not .Params.hideMeta }}
   {{ partial "blog/meta.html" . }}
+{{ end }}
 
   <div class="blog-toc">
-    {{ partial "blog/toc.html" . }}
+  {{ partial "blog/toc.html" . }}
   </div>
 
   <section class="blog-content">{{ .Content }}</section>
