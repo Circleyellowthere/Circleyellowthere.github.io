@@ -29,7 +29,6 @@
       "nav",
       "p",
       "path",
-      "pre",
       "script",
       "section",
       "small",
@@ -75,7 +74,6 @@
       "tags",
       "tags-list",
       "top-link",
-      "video-center",
       "wrapper"
     ],
     "ids": [
