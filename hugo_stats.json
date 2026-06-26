@@ -20,6 +20,7 @@
       "html",
       "iframe",
       "img",
+      "imgsrc=\"/stickers/aru/38.png\"",
       "input",
       "label",
       "li",
@@ -29,6 +30,7 @@
       "nav",
       "p",
       "path",
+      "pre",
       "script",
       "section",
       "small",
@@ -39,6 +41,7 @@
       "ul"
     ],
     "classes": [
+      "alu-face",
       "avatar",
       "blog-card",
       "blog-content",
@@ -50,6 +53,7 @@
       "card-content",
       "card-cover",
       "card-text",
+      "comeback-card",
       "container",
       "float-right",
       "footer",
@@ -61,6 +65,7 @@
       "lyric",
       "menu-button",
       "menu-separator",
+      "mv-button",
       "navigation",
       "navigation-brand",
       "navigation-item",
@@ -74,6 +79,7 @@
       "tags",
       "tags-list",
       "top-link",
+      "video-figure",
       "wrapper"
     ],
     "ids": [
