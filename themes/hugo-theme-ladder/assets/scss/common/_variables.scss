@@ -58,8 +58,11 @@ $color-dark-code-bg: #202020;
 
 // Fonts
 $font-family: "LXGW WenKai", sans-serif;
-$code-font-family: SFMono-Regular,
+$code-font-family:
+SFMono-Regular,
 Consolas,
 Liberation Mono,
 Menlo,
+"Apple Color Emoji",
+"Noto Color Emoji",
 monospace;

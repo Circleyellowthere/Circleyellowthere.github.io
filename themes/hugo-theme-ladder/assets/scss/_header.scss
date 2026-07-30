@@ -12,12 +12,13 @@
     font-size: 1.7rem;
     font-family: $font-family;
     font-weight: 600;
-    color: $fg-color;
+    color: #A58A84;
   }
 
   a {
     &:hover,
     &:focus {
+      color: #F48FB1;
       text-decoration: none;
     }
   }

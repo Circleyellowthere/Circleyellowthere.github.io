@@ -3,7 +3,6 @@
 *:before {
   box-sizing: inherit;
 }
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -12,43 +11,52 @@ html {
 
 body {
     color: #6E5C57;
-    background-color: #f7f5fa;
-
-    font-family: $font-family;
-    font-size: 1.8em;
-    font-weight: 400;
-    line-height: 1.8em;
-
     background: transparent;
+
+    font-family: 
+    $font-family,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Noto Color Emoji",
+    sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* 固定背景图片 */
 body::before {
     content: "";
     position: fixed;
     inset: 0;
     z-index: -1;
 
-    background-image: url('/images/desktop.png');
+    background-image: url('/images/IMG_0527.PNG');
+
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    pointer-events: none;
 }
 
-@media (max-width:768px) {
-    body::before {
-        background-image: url('/images/mobile.png');
-        background-position: center center;
+@media only screen and (max-width:768px){
+
+    body::before{
+
+        background-image: url('/images/IMG_0527.PNG');
+
         background-size: cover;
-    }
-}
 
-/* 手机字号 */
-@media only screen and (max-width: 768px) {
-    body {
-        font-size: 1.6em;
-        line-height: 1.6em;
+        background-position: center top;
+
+        background-attachment: scroll;
+
     }
+
 }
 
 a {
@@ -273,3 +281,94 @@ img:hover {
   transition: 0.3s ease;
 }
 
+.collection-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,320px);
+
+    justify-content:center;
+
+    gap:28px;
+
+}
+
+.collection-card{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:20px 24px;
+
+    border-radius:22px;
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.45);
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.collection-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#f7b5cd;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.collection-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.collection-icon{
+
+    font-size:30px;
+}
+
+.collection-title{
+
+    font-size:1.8rem;
+
+    color:#87746f;
+
+    font-weight:600;
+}
+
+.collection-card::after{
+
+    content:"→";
+
+    color:#f48fb1;
+
+    font-size:2rem;
+
+    opacity:0;
+
+    transform:translateX(-10px);
+
+    transition:.3s;
+}
+
+.collection-card:hover::after{
+
+    opacity:1;
+
+    transform:translateX(0);
+}

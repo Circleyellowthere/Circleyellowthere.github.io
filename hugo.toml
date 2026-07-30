@@ -10,9 +10,9 @@ theme = "hugo-theme-ladder" #使用的主题名称
       unsafe = true
 
 [params]
-  brand = "主页"
+  brand = "HOME"
   authorDescription = " "
-  info = "用我自己的眼睛去观察去感受这个世界，<br>是只有我自己才能做到的很了不起的事情"
+  info = "<br>用我自己的眼睛去观察去感受这个世界，<br>是只有我自己才能做到的很了不起的事情"
   avatarURL = "/images/IMG_0538.png"
   favicon = "/images/avatar.PNG"
   darkModeTheme = "data-dark-mode"
@@ -23,19 +23,24 @@ name = "极品润物"
 email = "Circleyellowthere@163.com"
 
 [[menu.main]]
-  name = "文章"
+  name = "JOURNAL"
   url = "/blog/"
   weight = 1
 
 [[menu.main]]
-  name = "归档"
-  url = "/archive/"
+  name = "COLLECTIONS"
+  url = "/collections/"
   weight = 2
 
 [[menu.main]]
-  name = "关于我"
-  url = "/contact/"
+  name = "FRIENDS"
+  url = "/friends/"
   weight = 3
+
+[[menu.main]]
+  name = "ABOUT"
+  url = "/contact/"
+  weight = 4
 
 # rebuild
 
