@@ -13,15 +13,21 @@ html {
 body {
   color: #6E5C57;
   background-color: #f7f5fa;
+
   font-family: $font-family;
   font-size: 1.8em;
   font-weight: 400;
   line-height: 1.8em;
+
   background-image: url('/images/IMG_0527.PNG');
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  @media only screen and (max-width: 768px) {
-    font-size: 1.6em;
+}
+@media only screen and (max-width: 768px) {
+   body { 
+   font-size: 1.6em;
     line-height: 1.6em;
   }
 }
