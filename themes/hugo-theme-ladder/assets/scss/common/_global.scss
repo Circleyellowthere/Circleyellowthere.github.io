@@ -24,16 +24,12 @@ body {
 
 /* 固定背景图片 */
 body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
 
     background-image: url('/images/IMG_0527.PNG');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
 
-    z-index: -1;
 }
 
 /* 手机字号 */
