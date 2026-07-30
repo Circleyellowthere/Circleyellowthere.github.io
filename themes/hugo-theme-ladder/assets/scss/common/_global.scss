@@ -24,14 +24,14 @@ body {
 
 /* 固定背景图片 */
 body::before {
-
     background-image: url('/images/IMG_0527.PNG');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
-
 }
 
+@media (max-width:768px) {
+    body::before {
+        background-image: url('/images/IMG_0527.jpeg');
+    }
+}
 /* 手机字号 */
 @media only screen and (max-width: 768px) {
     body {
