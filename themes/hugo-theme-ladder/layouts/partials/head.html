@@ -38,4 +38,21 @@
         <script>{{ $darkModeInit.Content | safeJS }}</script>
     {{ end -}}
 <link rel="stylesheet" href="/css/font.css">
+
+
+<link rel="stylesheet" href="/css/font.css">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ site.Params.description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:image" content="{{ "images/avatar.PNG" | absURL }}">
+<meta property="og:locale" content="zh_CN">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ site.Params.description }}">
+<meta name="twitter:image" content="{{ "images/avatar.PNG" | absURL }}">
+
 </head>

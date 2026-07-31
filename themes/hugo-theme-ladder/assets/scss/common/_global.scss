@@ -372,3 +372,39 @@ img:hover {
 
     transform:translateX(0);
 }
+
+#reading-progress{
+    position:fixed;
+    bottom:10px;
+    left:0;
+
+    height:4px;
+
+    background:linear-gradient(
+        90deg,
+
+        #ffd8e71e,
+        #ff8fb855
+    );
+
+    box-shadow:
+        0 0 8px rgba(255,150,190,.45);
+
+    z-index:9999;
+
+    transition:width .08s linear;
+}
+
+html,
+body,
+*{
+    cursor:url("/images/cursor/bow.png") 24 24, auto;
+}
+
+a,
+button,
+input,
+textarea,
+summary{
+    cursor:url("/images/cursor/bow-hover.png") 24 24, pointer;
+}

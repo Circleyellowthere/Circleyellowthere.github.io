@@ -138,3 +138,73 @@
     object-fit:cover;
     border-radius:16px;
 }
+
+.friend-card{
+    display:flex;
+    align-items:center;
+    gap:18px;
+
+    width:360px;
+    height:120px;
+
+    padding: 20px 24px;
+
+    border-radius:22px;
+
+    background:rgba(255, 255, 255, 0.5);
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius:22px;
+
+    box-shadow: 0 10px 25px rgba(255,170,190,.08);
+
+    backdrop-filter:blur(16px);
+
+    text-decoration:none;
+
+    color:#6E5C57;
+
+    transition:.25s;
+}
+
+.friend-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 28px rgba(255,170,190,.12);
+}
+
+
+.friend-logo{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+}
+
+.friend-info h3{
+    margin:0;
+    font-size:2rem;
+}
+
+.friend-info p{
+    margin:6px 0;
+    color:#9A8882;
+}
+
+.friend-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 32px;
+}
+
+.friend-url{
+    color:#F58CB3;
+    font-size:1.45rem;
+    margin-top:4px;
+}
+
+article h1{
+    font-size:2.5rem;
+}
