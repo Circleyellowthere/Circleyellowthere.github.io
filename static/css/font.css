@@ -28,7 +28,7 @@ h3 {
 /* 适配手机版本 */
 @media screen and (max-width: 768px) {
   body {
-        font-size: 12px;
+        font-size: 14px !important;
   }
   .home .info .intro h1 {
     font-size: 20px !important;
