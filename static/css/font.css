@@ -1,6 +1,6 @@
 /* 全站基础字体 */
 body {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -17,7 +17,7 @@ h2 {
 
 /* 文章列表标题 */
 h3 {
-  font-size: 20px !important;
+  font-size: 16px !important;
   font-weight: 700 !important;
 }
 
@@ -27,13 +27,18 @@ h3 {
 }
 /* 适配手机版本 */
 @media screen and (max-width: 768px) {
+  body {
+        font-size: 12px;
+  }
   .home .info .intro h1 {
-    font-size: 24px !important;
+    font-size: 20px !important;
   }
 
   .featured-single h4 a {
-    font-size: 17px !important;
+    font-size: 14px !important;
   }
+
+
 }
 
 .lyric {

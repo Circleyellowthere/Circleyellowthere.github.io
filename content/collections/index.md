@@ -14,12 +14,6 @@ hideMeta: true
 
 </a>
 
-<a class="collection-card" href="/randomizer/">
 
-<span class="collection-title">
-        饭拍抽抽乐
-    </span>
-
-</a>
 
 </div>

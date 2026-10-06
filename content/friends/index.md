@@ -8,14 +8,14 @@ hideMeta: true
 
 <div class="friend-grid">
 
-<a class="friend-card" href="https://nth5mr.vercel.app" target="_blank">
+<a class="friend-card" href="https://nth5.github.io" target="_blank">
 <img class="friend-logo"
          src="https://eu-federal-media.pari.network/pari/1ab0c0f4-5d48-4f93-9cc5-7f0963f6ac7d.webp">
 
 <div class="friend-info">
         <h3>NTH5 WORLD</h3>
         <div class="friend-url">
-            nth5mr.vercel.app
+            nth5.github.io
         </div>
     </div>
 </a>
@@ -31,5 +31,17 @@ hideMeta: true
         </div>
     </div>
 </a>
+
+<a class="friend-card" href="https://shioriblog.org" target="_blank">
+<img class="friend-logo"
+         src="https://shioriblog.org/assets/images/shiori-icon.png">
+<div class="friend-info">
+        <h3>独居日记</h3>
+        <div class="friend-url">
+            shioriblog.org
+        </div>
+    </div>
+</a>
+
 
 </div>

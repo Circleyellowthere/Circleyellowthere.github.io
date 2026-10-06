@@ -7,6 +7,8 @@ hideMeta: true
 2026
 | Date | Title | Artist | City | Venue |
 | :--- | :--- | :--- | :--- | :--- | 
+| 260809 | [EPISODE 1: ZERO FRONTIER](/blog/16/) | NMIXX | TOKYO🇯🇵 | Keio Arena |
+| 260808 | [EPISODE 1: ZERO FRONTIER]| NMIXX | TOKYO🇯🇵 | Keio Arena |
 | 260523 | [THIS IS FOR](/blog/13/) | TWICE | Berlin🇩🇪 | Uber Arena |
 | 260517 | THIS IS FOR | TWICE | Paris🇫🇷 | Accor Arena |
 | 260509 | THIS IS FOR | TWICE | Lisbon🇵🇹 | MEO Arena |
