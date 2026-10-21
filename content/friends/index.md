@@ -43,5 +43,15 @@ hideMeta: true
     </div>
 </a>
 
+<a class="friend-card" href="https://kharybdism.xyz" target="_blank">
+<img class="friend-logo"
+         src="https://icon.horse/icon/kharybdism.xyz">
+<div class="friend-info">
+        <h3>𝔹𝕪𝕫𝕒𝕟𝕥𝕚𝕟𝕖 𝔽𝕒𝕚𝕝𝕦𝕣𝕖𝕤</h3>
+        <div class="friend-url">
+            kharybdism.xyz
+        </div>
+    </div>
+</a>
 
 </div>
