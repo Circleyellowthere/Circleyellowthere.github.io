@@ -1,6 +1,6 @@
 /* 全站基础字体 */
 body {
-  font-size: 20px;
+  font-size: 16px !important;
   font-weight: 400;
 }
 
