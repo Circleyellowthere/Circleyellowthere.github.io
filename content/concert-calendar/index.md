@@ -7,10 +7,10 @@ hideMeta: true
 2026
 | Date | Title | Artist | City | Venue |
 | :--- | :--- | :--- | :--- | :--- | 
-| 260917 | [TUNNEL VISION](/blog/23/) | ITZY | Frankfurt🇩🇪 |  |
-| 260912 | [MUSIC BANK](/blog/23/) | NMIXX | Barcelona🇪🇸 | Keio Arena |
-| 260809 | [EPISODE 1: ZERO FRONTIER](/blog/16/) | STAYC | Seoul🇰🇷 | Bluesquare Hall |
-| 260809 | [EPISODE 1: ZERO FRONTIER](/blog/16/) | STAYC | Seoul🇰🇷 | Bluesquare Hall |
+| 260917 | [TUNNEL VISION](/blog/23/) | ITZY | Frankfurt🇩🇪 | Festhalle |
+| 260912 | [MUSIC BANK](/blog/23/) | NMIXX | Barcelona🇪🇸 | Estadi Olímpic Lluís Companys |
+| 260824 | [EPISODE 1: ZERO FRONTIER](/blog/19/) | STAYC | Seoul🇰🇷 | Bluesquare |
+| 260823 | [EPISODE 1: ZERO FRONTIER](/blog/19/) | STAYC | Seoul🇰🇷 | Bluesquare |
 | 260815 | [TUNNEL VISION](/blog/17/) | ITZY | MACAO🇲🇴 | Venetian Arena |
 | 260809 | [EPISODE 1: ZERO FRONTIER](/blog/16/#5) | NMIXX | TOKYO🇯🇵 | Keio Arena |
 | 260808 | [EPISODE 1: ZERO FRONTIER](/blog/16/#5) | NMIXX | TOKYO🇯🇵 | Keio Arena |

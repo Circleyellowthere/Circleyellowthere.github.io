@@ -1,5 +1,5 @@
 ---
-title: "Collections"
+title: "收集"
 date: 2026-01-01
 
 hideMeta: true
