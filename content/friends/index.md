@@ -54,4 +54,15 @@ hideMeta: true
     </div>
 </a>
 
+<a class="friend-card" href="https://notes.midofnowhere.link" target="_blank">
+<img class="friend-logo"
+         src="https://blog-photos.s3.fr-par.scw.cloud/2025/02/8bcf82d8f950ce8798a3f119f063815a.webp">
+<div class="friend-info">
+        <h3>Mid of Nowhere</h3>
+        <div class="friend-url">
+            notes.midofnowhere.link
+        </div>
+    </div>
+</a>
+
 </div>
